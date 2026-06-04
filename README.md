@@ -1,36 +1,82 @@
 # Smart Hospital Finder and Management System (SHFMS)
 
-A desktop-based healthcare management application developed using Java Swing and MySQL.
+## Overview
 
-## Project Overview
-The system provides a centralized platform for hospital discovery, appointment booking, and role-based management for Admin, Hospital Admin, Doctor, and Patient.
-
-## Technologies Used
-- Java SE 17
-- Java Swing (GUI)
-- MySQL 8.0
-- JDBC
-- Google Maps API
-
-## Architecture
-Three-Tier Architecture:
-- Presentation Layer
-- Application Layer
-- Database Layer
+SHFMS is a desktop-based healthcare management application that helps patients find hospitals, view doctors, and book appointments digitally. The system provides role-based access for Admin, Hospital Admin, Doctor, and Patient users.
 
 ## Features
-- Role-based Authentication
-- Hospital Search by Location & Specialization
-- Appointment Booking & Management
-- Doctor Dashboard
-- Admin Dashboard
-- Secure Password Encryption (SHA-256)
-- SQL Injection Prevention (Prepared Statements)
 
-## Status
-Academic Project (Completed - Semester 3)
+### Patient
+- Register and Login
+- Search Hospitals by Location
+- View Doctor Availability
+- Book Appointments
+- View and Cancel Appointments
+- Manage Profile
+
+### Doctor
+- View Appointment Schedule
+- Update Availability
+- Access Patient History
+
+### Hospital Admin
+- Manage Doctors
+- Manage Patients
+- Handle Appointments
+- View Hospital Statistics
+
+### System Admin
+- Manage Hospitals
+- Manage Users
+- Monitor System Activities
+
+## Technologies Used
+
+- Java SE 17
+- Java Swing
+- MySQL 8.0
+- JDBC
+
+## Architecture
+
+The project follows a Three-Tier Architecture:
+
+1. Presentation Layer (Java Swing GUI)
+2. Application Layer (Java Business Logic)
+3. Database Layer (MySQL)
+
+## Installation
+
+1. Install Java JDK 17
+2. Install MySQL 8.0
+3. Import the database SQL file
+4. Configure JDBC Connection
+5. Run the project from VS Code / IntelliJ IDEA / Eclipse
+
+## Project Modules
+
+- Authentication Module
+- Admin Module
+- Hospital Admin Module
+- Doctor Module
+- Patient Module
+- Database Connectivity Module
 
 ## Future Enhancements
-- AI-based hospital recommendation system
-- Mobile application integration
-- Cloud deployment
+
+- Mobile Application
+- AI-based Hospital Recommendations
+- Real-Time Appointment Tracking
+- Emergency Service Integration
+- Multi-Language Support
+- Cloud Deployment
+
+## Contributors
+
+- Aiswarya A
+- Ann Maria George
+- Angel S S
+
+## Academic Project
+
+Developed as a B.Tech Computer Science and Engineering project (Semester 3) at NSS College of Engineering, Palakkad.
