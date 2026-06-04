@@ -80,3 +80,8 @@ The project follows a Three-Tier Architecture:
 ## Academic Project
 
 Developed as a B.Tech Computer Science and Engineering project (Semester 3) at NSS College of Engineering, Palakkad.
+
+## Screenshots
+
+<img width="784" height="428" alt="image" src="https://github.com/user-attachments/assets/a2c0b0b3-2f0b-4b4c-b016-af38af6ff82e" />
+
